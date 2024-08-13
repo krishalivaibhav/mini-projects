@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitME</title>
+    <link rel="stylesheet" href="foodWebsite.css">
+    <link rel="icon" href="images/Subtract.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <section class="Nav1">  
+        <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill=""><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#" class="home-link">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#"><img src="images/search.svg" alt="search icon"></a></li>
+            <li><a href="#"><img src="images/Bag.svg" alt=""></a></li>
+            <li><a href="#" class="signInLink"><button class="signIn">SIGN IN</button></a></li>
+        </ul>
+        <ul>
+            <li><a href="#" class="logo"><img src="images/Subtract.svg" alt="">FitME</a></li>
+            <li class="hideOnMobile"><a href="#" class="home-link">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Recipes</a></li>
+            <li class="hideOnMobile"><a href="#">Popular</a></li>
+            <li class="hideOnMobile"><a href="#">Blogs</a></li>
+            <li class="hideOnMobile"><a href="#"><img src="images/search.svg" alt="search icon"></a></li>
+            <li class="hideOnMobile"><a href="#"><img src="images/Bag.svg" alt=""></a></li>
+            <li class="hideOnMobile"><a href="#" class="signInLink"><button class="signIn">SIGN IN</button></a></li>
+            <li class="hideMenu" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill=""><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+</section>
+  
+    <section class="firstSection">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              
+            </div>
+            <div class="col-lg-6">
+                <div class="images-section1 ">
+                <img class="img-section1" src="images/img1.png" alt="">
+                <img class="img-section2 hideImages" src="images/img 2.png" alt="">
+            </div>
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Premium <span class="Quality">Quality</span></h1>
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 line2 ">Food for your <span class="banana-button"><img src="images/bananna.svg" alt=""></span> <span class="Quality">healthy</span></h1>
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 line2 "><span class="banana-button2"><img src="images/apple.svg" alt=""></span> <span class="Quality">& Daily Life</span></h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                
+                <input class="search-input" type="search" placeholder="Enter your delivery location">
+                <button class="signIn btn1">Get Started</button>
+                
+            </div>
+            <div class="cities">
+                 <p>Popular cities in India</p>
+                 <ul>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a class="colour" href="#">Chennai</a></li>
+                    <li><a href="#">Mumbai</a></li>
+                    <li><a class="colour" href="#">Bangalore</a></li>
+                    <li><a href="#">Delhi</a></li>
+                    <li><a class="colour" href="#">Kolkata</a></li>
+                 </ul>
+            </div>
+            </div>
+          </div>
+    </section>
+    
+   <section class="section2Titles">
+    <div >Nearby Restaurants</div> 
+    <div>Recommended Food Items</div>
+   </section>
+  <section class="Recommended_Nearby-space">
+    <section>
+        <section>
+        
+            <div class="container">
+                <div class="card1">
+                  <img src="images/img3.png" class="card-img">
+                  <div class="card-title">Ramachandra <br> Parlour</div>
+                  <div class="card-infoT">
+                    <div class="card-subtitle">south indian</div>
+                    <div class="card-info">
+                        <div class="star-rating">★</div>
+                        <div class="card-info-text">4.0</div>
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">30 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/price.svg" class="card-info-icon">
+                      <div class="card-info-text">₹200 for two</div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="card2">
+                  <img src="images/img4.png" class="card-img">
+                  <div class="card-title">Uma Parlour - Pure Vegetarian</div>
+                    <div class="card-infoT">
+                        <div class="card-subtitle">south indian</div>
+                        <div class="card-info">
+        
+                            <div class="star-rating3_2">★</div>
+                            <div class="card-info-text">3.2</div>
+                          </div>
+                    </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">20 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/price.svg" class="card-info-icon">
+                      <div class="card-info-text">₹150 for two</div>
+                    </div>
+                  </div>
+                  
+                 
+            
+           </section>
+            <section>
+            
+                <div class="container">
+                <div class="card1">
+                  <img src="images/img7.png" class="card-img">
+                  <div class="card-title">Swap - Diet Meal <br> Box</div>
+                  <div class="card-infoT">
+                    <div class="card-subtitle">Healthy Food, Salads
+                    </div>
+                    <div class="card-info">
+                        <div class="star-rating">★</div>
+                        <div class="card-info-text">4.5</div>
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">40 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/price.svg" class="card-info-icon">
+                      <div class="card-info-text">₹300 for two</div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="card2">
+                  <img src="images/img8.png" class="card-img">
+                  <div class="card-title">The Good Bowl
+                    - Traditional Bowls</div>
+                    <div class="card-infoT">
+                        <div class="card-subtitle">North Indian, Punjabi</div>
+                        <div class="card-info">
+        
+                            <div class="star-rating">★</div>
+                            <div class="card-info-text">4.8</div>
+                          </div>
+                    </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">25 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/price.svg" class="card-info-icon">
+                      <div class="card-info-text">₹250 for two</div>
+                    </div>
+                </div>
+           </section>
+       </section>
+       
+       <section>
+            <section>
+        
+            <div class="container">
+                <div class="card1">
+                  <img src="images/img5.png" class="card-img">
+                  <div class="card-title">Paneer Tikka Rice Bowl</div>
+                  <div class="card-infoT">
+                    <div class="card-subtitle">The Good Bow</div>
+                    <div class="card-info">
+                        <div class="star-rating">★</div>
+                        <div class="card-info-text">4.0</div>
+                    </div>
+                  </div>
+                    <div class="card-info">
+                        <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">20 Mins</div>
+                        </div>
+                        <div class="card-info-item">
+                      <img src="images/section2priceicon.svg" class="card-info-icon">
+                      <div class="card-info-text">₹200 </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="card2">
+                  <img src="images/img6.png" class="card-img">
+                  <div class="card-title">Aloo Paratha Curd Meal (2 pcs)</div>
+                    <div class="card-infoT">
+                        <div class="card-subtitle">Lunch Box</div>
+                        <div class="card-info">
+        
+                            <div class="star-rating">★</div>
+                            <div class="card-info-text">4.4</div>
+                          </div>
+                    </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">25 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/section2priceicon.svg" class="card-info-icon">
+                      <div class="card-info-text">₹169 </div>
+                    </div>
+                  </div>
+                  
+                 
+            
+           </section>
+            <section>
+            
+                <div class="container">
+                <div class="card1">
+                  <img src="images/img9.png" class="card-img">
+                  <div class="card-title">Baked Pizza Wrap - Vegetarian</div>
+                  <div class="card-infoT">
+                    <div class="card-subtitle">Faasos - Wraps & Rolls</div>
+                    <div class="card-info">
+                        <div class="star-rating">★</div>
+                        <div class="card-info-text">4.5</div>
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">35 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/section2priceicon.svg" class="card-info-icon">
+                      <div class="card-info-text">₹209 </div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="card2">
+                  <img src="images/img10.png" class="card-img">
+                  <div class="card-title">Mixed Veg Fried Rice
+                    with dry fruits</div>
+                    <div class="card-infoT">
+                        <div class="card-subtitle">MFC Restaurant</div>
+                        <div class="card-info">
+        
+                            <div class="star-rating">★</div>
+                            <div class="card-info-text">4.8</div>
+                          </div>
+                    </div>
+                  <div class="card-info">
+                    <div class="card-info-item">
+                      <img src="images/time.svg" class="card-info-icon">
+                      <div class="card-info-text">45 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                      <img src="images/section2priceicon.svg" class="card-info-icon">
+                      <div class="card-info-text">₹180</div>
+                    </div>
+                </div>
+           </section>
+       </section>
+  </section>
+  <h1 class="carouselWords ">Nearby Restaurants</h1>
+<section class="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="images/img3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>Ramachandra Parlour</h5>
+          <p>South Indian</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/img4.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Uma Parlour - Pure Vegetarian</h5>
+          <p>South Indian</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/img7.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Swap - Diet Meal Box</h5>
+          <p>Healthy Food, Salads</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/img8.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>The Good Bowl - Traditional Bowls</h5>
+          <p>North Indian, Punjabi</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+  </section>
+  <h1 class="carouselWords">Recommended Food Items</h1>
+  <section class="carousel">
+    <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/img5.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Paneer Tikka Rice Bowl</h5>
+            <p>The Good Bowl</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/img6.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Aloo Paratha Curd Meal  (2 pcs)</h5>
+            <p>Lunch Box</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/img9.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Baked Pizza Wrap - Vegetarian</h5>
+            <p>Faasos - Wraps & Rolls</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/img10.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Mixed Veg Fried Rice with dry fruits</h5>
+            <p>MFC Restaurant</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> 
+   
+   <section class="searchByRestaurant">
+    <ul>
+      <li class="searchByRestaurantColour">Search By Restaurant <img class="searchByRestaurantImage" src="images/searchByRestaurant.svg" alt=""></li>
+      <li>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start enterItem">    
+          <input class="search-input searchRestaurant" type="search" placeholder="Enter item or restaurant you are looking for">
+          <button class="signIn btn1 btn2">Get Started</button>
+          
+      </div>
+      </li>
+    </ul>
+   </section>
+   <section>
+    <h2 class="What-on-your-mind">What’s on your mind?</h2>
+    <ul class="What-on-your-mindList">
+      <li>
+        <div class="image-container">
+          <img class="profile-img mt-5" src="images/sandwich.svg" style="border-radius: 50%; height: 160px;">
+          <p class="image-text">Sandwich</p>
+        </div>
+      </li>
+      <li><div class="image-container">
+          <img class="profile-img mt-5" src="images/NorthIndianThali.svg" style="border-radius: 50%; height: 160px;">
+          <p class="image-text">North Indian Thali</p>
+        </div></li>
+      <li><div class="image-container">
+          <img class="profile-img mt-5" src="images/EggBreakfast.svg" style="border-radius: 50%; height: 160px;">
+          <p class="image-text">Egg BreakFast</p>
+        </div></li>
+      <li><div class="image-container">
+          <img class="profile-img mt-5" src="images/Rolls.svg" style="border-radius: 50%; height: 160px;">
+          <p class="image-text">Rolls & Puffs</p>
+        </div></li>
+      <li><div class="image-container">
+          <img class="profile-img mt-5" src="images/Salads.svg" style="border-radius: 50%; height: 160px;">
+          <p class="image-text">Salads</p>
+        </div></li>
+      <li><div class="image-container">
+          <img class="profile-img mt-5" src="images/Biryani.svg" style="border-radius: 50%; height: 160px;">
+          <p class="image-text">Biriyani Box</p>
+        </div></li>
+    </ul>
+
+
+
+    <section>
+      <section class="carousel carouselWhat">
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="5" aria-label="Slide 5"></button>
+
+          </div>
+          <div class="carousel-inner carouselWhat-inner ">
+            <div class="carousel-item carouselWhat-item active" data-bs-interval="3000">
+              <img src="images/sandwich.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption carouselWhat-caption d-md-block">
+                <h5>Sandwich</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item carouselWhat-item" data-bs-interval="3000">
+              <img src="images/NorthIndianThali.svg" class="d-block w-100 " alt="...">
+              <div class="carousel-caption carouselWhat-caption d-md-block">
+                <h5>North Indian Thali</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item carouselWhat-item" data-bs-interval="3000">
+              <img src="images/EggBreakfast.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption carouselWhat-caption d-md-block">
+                <h5>Egg BreakFast</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item carouselWhat-item" data-bs-interval="3000">
+              <img src="images/Rolls.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption carouselWhat-caption d-md-block">
+                <h5>Rolls & Puffs</h5>
+                
+              </div>
+            </div>
+            <div class="carousel-item carouselWhat-item" data-bs-interval="3000">
+              <img src="images/Salads.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption carouselWhat-caption d-md-block">
+                <h5>Salads</h5>
+               
+              </div>
+            </div>
+            <div class="carousel-item carouselWhat-item" data-bs-interval="3000">
+              <img src="images/Biryani.svg" class="d-block w-100" alt="...">
+              <div class="carousel-caption carouselWhat-caption d-md-block">
+                <h5>Biriyani Box</h5>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section> 
+    </section>
+
+  </section> 
+   <h2 class="Personalized">Personalized&nbsp;recommendations</h2>
+        <ul class="lastSectionList">
+          <li><div class="container">
+            <div class="card1">
+              <img src="images/bakedpizza.png" class="card-img">
+              <div class="card-title">Baked Pizza Wrap - Vegetarian</div>
+              <div class="card-infoT">
+                <div class="card-subtitle">Faasos - Wraps & Rolls</div>
+                <div class="card-info">
+                    <div class="star-rating">★</div>
+                    <div class="card-info-text">4.0</div>
+                </div>
+              </div>
+                <div class="card-info">
+                    <div class="card-info-item">
+                  <img src="images/time.svg" class="card-info-icon">
+                  <div class="card-info-text">35 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                  <img src="images/section2priceicon.svg" class="card-info-icon">
+                  <div class="card-info-text">₹209 </div>
+                    </div>
+                </div></li>
+          <li><div class="container">
+            <div class="card1">
+              <img src="images/butterchicken.png" class="card-img">
+              <div class="card-title">Butter Chicken Pizza - 8 serve</div>
+              <div class="card-infoT">
+                <div class="card-subtitle">Suren Pastries</div>
+                <div class="card-info">
+                    <div class="star-rating">★</div>
+                    <div class="card-info-text">4.0</div>
+                </div>
+              </div>
+                <div class="card-info">
+                    <div class="card-info-item">
+                  <img src="images/time.svg" class="card-info-icon">
+                  <div class="card-info-text">25 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                  <img src="images/section2priceicon.svg" class="card-info-icon">
+                  <div class="card-info-text">₹289 </div>
+                    </div>
+                </div></li>
+          <li><div class="container">
+            <div class="card1">
+              <img src="images/MexicanPatty.png" class="card-img">
+              <div class="card-title">Mexican Patty Signature Wraps</div>
+              <div class="card-infoT">
+                <div class="card-subtitle">Subway</div>
+                <div class="card-info">
+                    <div class="star-rating">★</div>
+                    <div class="card-info-text">4.0</div>
+                </div>
+              </div>
+                <div class="card-info">
+                    <div class="card-info-item">
+                  <img src="images/time.svg" class="card-info-icon">
+                  <div class="card-info-text">32 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                  <img src="images/section2priceicon.svg" class="card-info-icon">
+                  <div class="card-info-text">₹273 </div>
+                    </div>
+                </div></li>
+          <li><div class="container">
+            <div class="card1">
+              <img src="images/southWest.png" class="card-img">
+              <div class="card-title">Southwest Chicken Salad</div>
+              <div class="card-infoT">
+                <div class="card-subtitle">Burgerito</div>
+                <div class="card-info">
+                    <div class="star-rating">★</div>
+                    <div class="card-info-text">4.0</div>
+                </div>
+              </div>
+                <div class="card-info">
+                    <div class="card-info-item">
+                  <img src="images/time.svg" class="card-info-icon">
+                  <div class="card-info-text">41 Mins</div>
+                    </div>
+                    <div class="card-info-item">
+                  <img src="images/section2priceicon.svg" class="card-info-icon">
+                  <div class="card-info-text">₹220 </div>
+                    </div>
+                </div></li>
+        </ul>
+   </section>
+   <section >
+    <div id="carouselExampleCaptions2" class="carousel slide lastCrausel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/bakedpizza.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Baked Pizza Wrap - Vegetarian</h5>
+            <p>Faasos - Wraps & Rolls</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/butterchicken.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Butter Chicken Pizza - 8 serve</h5>
+            <p>Suren Pastries
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/MexicanPatty.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Mexican Patty Signature Wraps
+            </h5>
+            <p>Subway</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/southWest.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Southwest Chicken Salad
+            </h5>
+            <p>Burgerito</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </section>
+   <footer class="py-3 my-4">
+    <p class="footerImage"><img class="footerLogo" src="images/footerImage.svg" alt="">FitME</p>
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p class="footerText">About Us</p></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p class="footerText">Delivery</p> </a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p class="footerText">Help & Support</p> </a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><p class="footerText">T&C</p> </a></li>
+      
+    </ul>
+    <p class="text-center text-body-secondary footerMiddle"><img src="images/facebook icon.svg" alt=""><img src="images/instagram.svg" alt=""><img src="images/twitter icon.svg" alt=""></p>
+  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="foodWebsite.js"></script>
+
+</html>

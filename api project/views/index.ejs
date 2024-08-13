@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+    <h1>Random Dog Image</h1>
+    <div class="card">
+        <img id="dog-image" src="../images/whisper-img.jpg" alt="Random Dog">
+    </div>
+    <button id="fetch-button">Fetch New Image</button>
+    <p class="user" id="status"></p>
+
+    <script>
+        document.getElementById("fetch-button").addEventListener("click", async () => {
+            try {
+                const response = await fetch("/fetch-image");
+                const data = await response.json();
+                document.getElementById("dog-image").src = data.message;
+                document.getElementById("status").textContent = data.status;
+            } catch (error) {
+                console.error("Error fetching image:", error);
+                document.getElementById("status").textContent = "Failed to fetch image";
+            }
+        });
+    </script>
+</body>
+
+</html>
